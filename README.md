@@ -1,3 +1,5 @@
+ai捕获分析的软件
+
 # ARDebug
 ARDebug is a tool for monitoring and debugging swarm robotic and multi-robot experiments in real time using augmented reality techniques. The software provides a GUI for displaying internal data reported wirelessly by each robot within the swarm. This data is used to augment a real-time video feed of the robots and their environment, using visual representations of the data. The software aims to reduce the time taken to develop and debug swarm robotics experiments and behaviours by giving the developer more immediate access to decision making varaibles, sensor readings, and other key data, when compared to standard console or log-based debugging techniques. The software relies on a tracking system to locate the robots within the image in order to correctly overlay the augmented elements, and a modular software architecture is used to allow for easy integration with a variety of tracking systems. The tracking system used in this reference implementation makes use of [ArUco](https://www.uco.es/investiga/grupos/ava/node/26) fiducial markers and the associated [OpenCV](https://opencv.org/) image processing library.
 
